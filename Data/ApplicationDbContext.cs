@@ -12,7 +12,8 @@ namespace ApiEstudio.Data
         //Aqui pasar todas las entidades (modelos)
 
         public DbSet<Categoria> Categoria { get; set; }
-            
-     
+        public DbSet<Pelicula> Pelicula { get; set; }
+
+
     }
 }
